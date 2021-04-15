@@ -32,6 +32,7 @@ class CreateLogin:
                 d[key] = value
         print(d)
 
+        # When Login is pressed
         if LorS.lower() == 'l':
             usr_nme = input(f"Enter your {self.slot1}: ")
             
@@ -48,6 +49,7 @@ class CreateLogin:
                 else:
                     return usr_nme
 
+        # When Sign-Up is pressed
         elif LorS.lower() == "s":
             f = open(self.filename, "a+")
             good_nme = False
