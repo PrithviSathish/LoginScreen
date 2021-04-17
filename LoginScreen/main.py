@@ -26,3 +26,8 @@ class CreateLogin:
         from coloramaFile import styleLogin
         win_log = styleLogin()
         win_log.Login_or_Sign()
+
+    def tkinter(self):
+        from tkinterFile import gui_window
+        gui = gui_window()
+        gui.login_or_sign()
