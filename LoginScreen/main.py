@@ -18,7 +18,6 @@ class CreateLogin:
         f.close()
 
     def console(self):
-        # consoleFile.confile()
         import consoleFile
         consoleFile.run_on_console()
 
